@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41DA84F22E44CC4004C56D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41DA84E22E44CC4004C56D2 /* AppDelegate.swift */; };
+		F41DA85122E44CC4004C56D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41DA85022E44CC4004C56D2 /* ViewController.swift */; };
+		F41DA85422E44CC4004C56D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41DA85222E44CC4004C56D2 /* Main.storyboard */; };
+		F41DA85622E44CC5004C56D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41DA85522E44CC5004C56D2 /* Assets.xcassets */; };
+		F41DA85922E44CC5004C56D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41DA85722E44CC5004C56D2 /* LaunchScreen.storyboard */; };
+		F41DA86422E44CC5004C56D2 /* TombstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41DA86322E44CC5004C56D2 /* TombstoneTests.swift */; };
+		F41DA86F22E44CC6004C56D2 /* TombstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41DA86E22E44CC6004C56D2 /* TombstoneUITests.swift */; };
+		F41DA87D22E44D1D004C56D2 /* Playground in Resources */ = {isa = PBXBuildFile; fileRef = F41DA87C22E44D1D004C56D2 /* Playground */; };
+		F41DA87F22E44D33004C56D2 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41DA87E22E44D33004C56D2 /* GPUImage.framework */; };
+		F41DA88022E44D33004C56D2 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F41DA87E22E44D33004C56D2 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F41DA88422E45208004C56D2 /* FilterC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41DA88322E45208004C56D2 /* FilterC1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41DA86022E44CC5004C56D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41DA84322E44CC4004C56D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41DA84A22E44CC4004C56D2;
+			remoteInfo = Tombstone;
+		};
+		F41DA86B22E44CC6004C56D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41DA84322E44CC4004C56D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41DA84A22E44CC4004C56D2;
+			remoteInfo = Tombstone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F41DA88122E44D33004C56D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F41DA88022E44D33004C56D2 /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F41DA84B22E44CC4004C56D2 /* IvyBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvyBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41DA84E22E44CC4004C56D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F41DA85022E44CC4004C56D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F41DA85322E44CC4004C56D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F41DA85522E44CC5004C56D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F41DA85822E44CC5004C56D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F41DA85A22E44CC5004C56D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41DA85F22E44CC5004C56D2 /* IvyBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvyBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41DA86322E44CC5004C56D2 /* TombstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TombstoneTests.swift; sourceTree = "<group>"; };
+		F41DA86522E44CC6004C56D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41DA86A22E44CC6004C56D2 /* IvyBearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvyBearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41DA86E22E44CC6004C56D2 /* TombstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TombstoneUITests.swift; sourceTree = "<group>"; };
+		F41DA87022E44CC6004C56D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41DA87C22E44D1D004C56D2 /* Playground */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Playground; path = ..; sourceTree = "<group>"; };
+		F41DA87E22E44D33004C56D2 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41DA88322E45208004C56D2 /* FilterC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterC1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41DA84822E44CC4004C56D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41DA87F22E44D33004C56D2 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA85C22E44CC5004C56D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA86722E44CC6004C56D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41DA84222E44CC4004C56D2 = {
+			isa = PBXGroup;
+			children = (
+				F41DA87E22E44D33004C56D2 /* GPUImage.framework */,
+				F41DA84D22E44CC4004C56D2 /* Tombstone */,
+				F41DA86222E44CC5004C56D2 /* TombstoneTests */,
+				F41DA86D22E44CC6004C56D2 /* TombstoneUITests */,
+				F41DA84C22E44CC4004C56D2 /* Products */,
+				F41DA87C22E44D1D004C56D2 /* Playground */,
+			);
+			sourceTree = "<group>";
+		};
+		F41DA84C22E44CC4004C56D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41DA84B22E44CC4004C56D2 /* IvyBear.app */,
+				F41DA85F22E44CC5004C56D2 /* IvyBearTests.xctest */,
+				F41DA86A22E44CC6004C56D2 /* IvyBearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41DA84D22E44CC4004C56D2 /* Tombstone */ = {
+			isa = PBXGroup;
+			children = (
+				F41DA84E22E44CC4004C56D2 /* AppDelegate.swift */,
+				F41DA85022E44CC4004C56D2 /* ViewController.swift */,
+				F41DA85222E44CC4004C56D2 /* Main.storyboard */,
+				F41DA85522E44CC5004C56D2 /* Assets.xcassets */,
+				F41DA85722E44CC5004C56D2 /* LaunchScreen.storyboard */,
+				F41DA85A22E44CC5004C56D2 /* Info.plist */,
+				F41DA88322E45208004C56D2 /* FilterC1.swift */,
+			);
+			path = Tombstone;
+			sourceTree = "<group>";
+		};
+		F41DA86222E44CC5004C56D2 /* TombstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41DA86322E44CC5004C56D2 /* TombstoneTests.swift */,
+				F41DA86522E44CC6004C56D2 /* Info.plist */,
+			);
+			path = TombstoneTests;
+			sourceTree = "<group>";
+		};
+		F41DA86D22E44CC6004C56D2 /* TombstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F41DA86E22E44CC6004C56D2 /* TombstoneUITests.swift */,
+				F41DA87022E44CC6004C56D2 /* Info.plist */,
+			);
+			path = TombstoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41DA84A22E44CC4004C56D2 /* IvyBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41DA87322E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBear" */;
+			buildPhases = (
+				F41DA84722E44CC4004C56D2 /* Sources */,
+				F41DA84822E44CC4004C56D2 /* Frameworks */,
+				F41DA84922E44CC4004C56D2 /* Resources */,
+				F41DA88122E44D33004C56D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IvyBear;
+			productName = Tombstone;
+			productReference = F41DA84B22E44CC4004C56D2 /* IvyBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41DA85E22E44CC5004C56D2 /* IvyBearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41DA87622E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBearTests" */;
+			buildPhases = (
+				F41DA85B22E44CC5004C56D2 /* Sources */,
+				F41DA85C22E44CC5004C56D2 /* Frameworks */,
+				F41DA85D22E44CC5004C56D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41DA86122E44CC5004C56D2 /* PBXTargetDependency */,
+			);
+			name = IvyBearTests;
+			productName = TombstoneTests;
+			productReference = F41DA85F22E44CC5004C56D2 /* IvyBearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F41DA86922E44CC6004C56D2 /* IvyBearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41DA87922E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBearUITests" */;
+			buildPhases = (
+				F41DA86622E44CC6004C56D2 /* Sources */,
+				F41DA86722E44CC6004C56D2 /* Frameworks */,
+				F41DA86822E44CC6004C56D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41DA86C22E44CC6004C56D2 /* PBXTargetDependency */,
+			);
+			name = IvyBearUITests;
+			productName = TombstoneUITests;
+			productReference = F41DA86A22E44CC6004C56D2 /* IvyBearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41DA84322E44CC4004C56D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tex and Pearl";
+				TargetAttributes = {
+					F41DA84A22E44CC4004C56D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F41DA85E22E44CC5004C56D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F41DA84A22E44CC4004C56D2;
+					};
+					F41DA86922E44CC6004C56D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F41DA84A22E44CC4004C56D2;
+					};
+				};
+			};
+			buildConfigurationList = F41DA84622E44CC4004C56D2 /* Build configuration list for PBXProject "IvyBear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F41DA84222E44CC4004C56D2;
+			productRefGroup = F41DA84C22E44CC4004C56D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41DA84A22E44CC4004C56D2 /* IvyBear */,
+				F41DA85E22E44CC5004C56D2 /* IvyBearTests */,
+				F41DA86922E44CC6004C56D2 /* IvyBearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41DA84922E44CC4004C56D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41DA85922E44CC5004C56D2 /* LaunchScreen.storyboard in Resources */,
+				F41DA85622E44CC5004C56D2 /* Assets.xcassets in Resources */,
+				F41DA85422E44CC4004C56D2 /* Main.storyboard in Resources */,
+				F41DA87D22E44D1D004C56D2 /* Playground in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA85D22E44CC5004C56D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA86822E44CC6004C56D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41DA84722E44CC4004C56D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41DA85122E44CC4004C56D2 /* ViewController.swift in Sources */,
+				F41DA88422E45208004C56D2 /* FilterC1.swift in Sources */,
+				F41DA84F22E44CC4004C56D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA85B22E44CC5004C56D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41DA86422E44CC5004C56D2 /* TombstoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41DA86622E44CC6004C56D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41DA86F22E44CC6004C56D2 /* TombstoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41DA86122E44CC5004C56D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41DA84A22E44CC4004C56D2 /* IvyBear */;
+			targetProxy = F41DA86022E44CC5004C56D2 /* PBXContainerItemProxy */;
+		};
+		F41DA86C22E44CC6004C56D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41DA84A22E44CC4004C56D2 /* IvyBear */;
+			targetProxy = F41DA86B22E44CC6004C56D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F41DA85222E44CC4004C56D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41DA85322E44CC4004C56D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F41DA85722E44CC5004C56D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41DA85822E44CC5004C56D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41DA87122E44CC6004C56D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F41DA87222E44CC6004C56D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41DA87422E44CC6004C56D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = Tombstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.Tombstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41DA87522E44CC6004C56D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = Tombstone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.Tombstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F41DA87722E44CC6004C56D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = TombstoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.TombstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvyBear.app/IvyBear";
+			};
+			name = Debug;
+		};
+		F41DA87822E44CC6004C56D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = TombstoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.TombstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvyBear.app/IvyBear";
+			};
+			name = Release;
+		};
+		F41DA87A22E44CC6004C56D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = TombstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.TombstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tombstone;
+			};
+			name = Debug;
+		};
+		F41DA87B22E44CC6004C56D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAATMH56AY;
+				INFOPLIST_FILE = TombstoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.travisweerts.TombstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tombstone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41DA84622E44CC4004C56D2 /* Build configuration list for PBXProject "IvyBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41DA87122E44CC6004C56D2 /* Debug */,
+				F41DA87222E44CC6004C56D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41DA87322E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41DA87422E44CC6004C56D2 /* Debug */,
+				F41DA87522E44CC6004C56D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41DA87622E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41DA87722E44CC6004C56D2 /* Debug */,
+				F41DA87822E44CC6004C56D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41DA87922E44CC6004C56D2 /* Build configuration list for PBXNativeTarget "IvyBearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41DA87A22E44CC6004C56D2 /* Debug */,
+				F41DA87B22E44CC6004C56D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41DA84322E44CC4004C56D2 /* Project object */;
+}
